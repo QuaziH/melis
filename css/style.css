@@ -1,0 +1,59 @@
+body {
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9) fixed;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #6DD5FA, #2980B9) fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.piano-svg {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 37%;
+}
+
+.player-controls {
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+    flex: 3;
+    text-align: center;
+    bottom: 10%;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+}
+
+.player-controls progress {
+    display: inline-block;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.player-controls progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: white;
+    color: black;
+    height: 5px;
+}
+
+.player-controls progress[value]::-webkit-progress-bar {
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid #dfdfdf;
+    color: black;
+}
+
+.player-controls progress::-webkit-progress-value {
+    background-color: black;
+}
+
+.player-controls p {
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.hidden {
+    display: none;
+}

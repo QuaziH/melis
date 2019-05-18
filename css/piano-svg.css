@@ -1,0 +1,138 @@
+@keyframes animate {
+    0% {
+        opacity: 0;
+        stroke-dashoffset: 4000;
+        fill: none;
+    }
+
+    /*30% {*/
+    /*opacity: 10;*/
+    /*fill: none;*/
+    /*stroke-dashoffset: 1800;*/
+    /*}*/
+
+    100% {
+        opacity: 10;
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes offset {
+    to{
+        opacity: 10;
+        stroke-dashoffset: 0;
+    }
+}
+
+
+.piano-svg path {
+    stroke: #000;
+    stroke-dasharray: 4000;
+    opacity : 10;
+    animation: animate 7s cubic-bezier(0, 0.23, 1, .1);
+    /*animation: offset 6s linear forwards;*/
+}
+
+.pedal-support {
+    stroke-dasharray: 125;
+    stroke-dashoffset: 125;
+}
+
+.pedal {
+    stroke-dasharray: 110;
+    stroke-dashoffset: 110;
+}
+
+.treble-leg {
+    stroke-dasharray: 625;
+    stroke-dashoffset: 625;
+}
+
+.lid-side {
+    stroke-dasharray: 200;
+    stroke-dashoffset: 200;
+}
+
+.front-half-lid {
+    stroke-dasharray: 825;
+    stroke-dashoffset: 825;
+}
+
+.point-leg {
+    stroke-dasharray: 375;
+    stroke-dashoffset: 375;
+}
+
+.rim-right {
+    stroke-dasharray: 385;
+    stroke-dashoffset: 385;
+}
+
+.cheek {
+    stroke-dasharray: 125;
+    stroke-dashoffset: 125;
+}
+
+.keyblock {
+    stroke-dasharray: 425;
+    stroke-dashoffset: 425;
+}
+
+.keyboard-cover {
+    stroke-dasharray: 300;
+    stroke-dashoffset: 300;
+}
+
+.bass-leg {
+    stroke-dasharray: 260;
+    stroke-dashoffset: 260;
+}
+
+.rim-left {
+    stroke-dasharray: 600;
+    stroke-dashoffset: 600;
+}
+
+.music-desk {
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+}
+
+.rim-back {
+    stroke-dasharray: 850;
+    stroke-dashoffset: 850;
+}
+
+.lid-full {
+    stroke-dasharray: 1100;
+    stroke-dashoffset: 1100;
+}
+
+.lid-prop {
+    stroke-dasharray: 525;
+    stroke-dashoffset: 525;
+}
+
+.stool-top-right-leg, .stool-bottom-right-leg, .stool-top-left-leg, .stool-bottom-left-leg {
+    stroke-dasharray: 225;
+    stroke-dashoffset: 225;
+}
+
+.stool-right-side {
+    stroke-dasharray: 275;
+    stroke-dashoffset: 275;
+}
+
+.stool-back-side {
+    stroke-dasharray: 275;
+    stroke-dashoffset: 275;
+}
+
+.stool-seat {
+    stroke-dasharray: 410;
+    stroke-dashoffset: 410;
+}
+
+/*.piano-full {*/
+    /*stroke: #af0000;*/
+/*}*/
